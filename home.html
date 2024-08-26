@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Restaurant</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="order-history.html">Order History</a></li>
+          <li><a href="index.html">Sign Out</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="restaurant-info">
+        <h1>Welcome to Our Restaurant</h1>
+        <p>Enjoy our finest dishes and exceptional service.</p>
+      </section>
+      <section class="slider">
+        <div class="slides">
+          <div class="slide">
+            <img
+              src="img/keesha-s-kitchen-9VKY7SXjHXE-unsplash.jpg"
+              alt="Dish 1"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="img/keesha-s-kitchen-b4Ht8TQ1JGo-unsplash.jpg"
+              alt="Dish 2"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="img/keesha-s-kitchen-PqG32DYCTM8-unsplash.jpg"
+              alt="Dish 3"
+            />
+          </div>
+          <!-- Add more slides as needed -->
+        </div>
+      </section>
+
+      <section class="featured-dishes">
+        <h2>Top Dishes</h2>
+        <div class="dish-card">
+          <img
+            src="img/jennifer-burk-gwBcamFtPr4-unsplash.jpg"
+            alt="Dish Name"
+          />
+          <h3>Dish Name</h3>
+          <p>Delicious description of the dish.</p>
+          <button class="btn">Order Now</button>
+        </div>
+        <!-- Repeat .dish-card for other dishes -->
+        <button
+          class="btn view-menu"
+          onclick="window.location.href='menu.html'"
+        >
+          View Full Menu
+        </button>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Our Restaurant. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

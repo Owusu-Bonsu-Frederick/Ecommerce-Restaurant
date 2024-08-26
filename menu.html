@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu - Restaurant</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="cart.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="order-history.html">Order History</a></li>
+          <li><a href="index.html">Sign Out</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Our Menu</h1>
+      <div class="menu-items">
+        <!-- Example dish card -->
+        <div class="dish-card">
+          <img
+            src="img/keesha-s-kitchen-9VKY7SXjHXE-unsplash.jpg"
+            alt="Dish 1"
+          />
+          <h3>Dish 1</h3>
+          <p>$12.99</p>
+          <button class="btn add-to-cart" onclick="addToCart('Dish 1', 12.99)">
+            Add to Cart
+          </button>
+        </div>
+        <!-- Add more dish cards here -->
+        <div class="dish-card">
+          <img
+            src="img/ophelie-bonavita-IoQr7epXYTo-unsplash.jpg"
+            alt="Dish 2"
+          />
+          <h3>Dish 2</h3>
+          <p>$15.99</p>
+          <button class="btn add-to-cart" onclick="addToCart('Dish 2', 15.99)">
+            Add to Cart
+          </button>
+        </div>
+        <!-- Example of adding more dishes -->
+        <div class="dish-card">
+          <img src="img/jennifer-burk-gwBcamFtPr4-unsplash.jpg" alt="Dish 3" />
+          <h3>Dish 3</h3>
+          <p>$9.99</p>
+          <button class="btn add-to-cart" onclick="addToCart('Dish 3', 9.99)">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Restaurant. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
